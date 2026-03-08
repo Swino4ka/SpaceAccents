@@ -1,0 +1,13 @@
+name: SpaceAccents
+main: org.space.spaceAccents.SpaceAccents
+version: '1.11'
+api-version: '1.21'
+description: "Chat accent transformer (nian, dwarven...)"
+commands:
+  accent:
+    description: "Выбрать акцент для чата (/accent <name>|off)"
+    usage: "/accent <name|off>"
+    permission: accentchat.use
+permissions:
+  accentchat.use:
+    default: true

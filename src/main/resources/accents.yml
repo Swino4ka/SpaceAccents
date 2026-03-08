@@ -1,0 +1,17 @@
+accents:
+  nian:
+    display: "Nian"
+    replacements:
+      - from: "с"
+        to: "ш"
+      - from: "ч"
+        to: "щ"
+  dwarven:
+    display: "Dwarven"
+    replacements:
+      - from: "пиво"
+        to: "Жидкайе Злато"
+      - from: "е"
+        to: "э"
+      - from: "блять"
+        to: "Кнурла"
