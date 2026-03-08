@@ -10,7 +10,6 @@ import java.util.regex.Pattern;
  * - если весь матч в верхнем регистре -> возвращаем replacement.toUpperCase()
  * - если первая буква матча заглавна -> Capitalize(replacement)
  * - иначе -> replacement.toLowerCase()
- *
  * Замечание: replacement хранится как literal (поддержка групп не реализована).
  */
 public class Replacement {
